@@ -14,6 +14,7 @@ if (lowerCaseUser === nameOfUser || user === nameOfUser) {
                let remain = amount - cash
                console.log(`The rest of your profit ${remain}`)
                console.log(`You have cashed ${cash}`)
+               alert(`The rest of your profit -- ${remain} and You have cashed -- ${ cash }`)
           } else {
                console.log('it is not enought money')
                document.getElementById('demo').innerHTML = 'it is not enought money'
