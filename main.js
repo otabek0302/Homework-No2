@@ -15,12 +15,16 @@ if (lowerCaseUser === nameOfUser || user === nameOfUser) {
                console.log(`The rest of your profit ${remain}`)
                console.log(`You have cashed ${cash}`)
           } else {
-               console.log('False', 'it is not enought money')
+               console.log('it is not enought money')
+               document.getElementById('demo').innerHTML = 'it is not enought money'
           }
      } else {
           console.log('Please check your password and try again')
+          document.getElementById('demo').innerHTML = 'Please check your password and try again'
+          
      }
      console.log(`Your Username ${nameOfUser}`)
 } else {
      console.log('Please check your Username')
+     document.getElementById('demo').innerHTML = 'Please check your Username'
 }
